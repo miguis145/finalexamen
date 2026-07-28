@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: npm ci
-      - run: npm test || true
+      - run: npm test 
 
   deploy:
     runs-on: ubuntu-latest
